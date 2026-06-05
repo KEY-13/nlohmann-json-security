@@ -1,7 +1,7 @@
 # nlohmann/json Security Contribution — Final Summary
 
 ## 任务概览
-开源软件与安全课程作业：为 nlohmann/json (v3.12.0, 44k+ Stars) 增加嵌套深度限制功能，防止 DoS 攻击。
+为 nlohmann/json (v3.12.0, 44k+ Stars) 增加嵌套深度限制功能，防止 DoS 攻击。
 
 ## 改动文件
 
@@ -51,6 +51,3 @@ g++ -std=c++17 -O0 -I include -I tests/thirdparty/doctest \
 1. 同步 `single_include/nlohmann/json.hpp`（运行 amalgamate 工具）
 2. 更新 API 文档（parse/accept 函数签名）
 3. 决定默认推荐值（建议 256 对齐 rapidjson，或 512/1024）
-
-## 工作路径
-`C:\Users\缪臻\.qclaw\workspace\nlohmann-json-analysis\`
