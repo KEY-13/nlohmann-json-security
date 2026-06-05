@@ -1,8 +1,7 @@
 ﻿# nlohmann/json 安全漏洞修复贡献报告
 
-## 开源软件与安全课程作业
 
-**贡献者**: 缪臻  
+**贡献者**: 武智杰
 **日期**: 2026年6月1日  
 **目标项目**: [nlohmann/json](https://github.com/nlohmann/json) (v3.12.0)  
 **修复类型**: DoS 安全漏洞修复 — JSON 嵌套深度限制
@@ -625,8 +624,3 @@ json safe_parse(const std::string& input) {
 | `unit-class_parser.cpp` (现存) | 10,241 | ✅ 100% |
 | `unit-max_depth.cpp` (新增) | 49 | ✅ 100% |
 | **总计** | **10,290** | **✅ 100%** |
-
----
-
-*本报告是「开源软件与安全」课程作业的最终交付文档。所有代码改动、测试文件
-和基准数据位于 `C:\Users\缪臻\.qclaw\workspace\nlohmann-json-analysis\`。*
